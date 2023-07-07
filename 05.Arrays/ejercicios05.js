@@ -1,29 +1,18 @@
 function primerElemento(arg){
     //dado el array pasado por parametro, tendras que devolver el primer elemento
     // tu código 
-    var newArray = ["hola", "mundo", "!"];
-    console.log(newArray[0]);
-    return arg[0]
-
 
 }
 
 function ultimoElemento(arg){
     //dado el array pasado por parametro, tendras que devolver el ultimo elemento
     // tu código aqui: 
-    var arr = ["hola", "mundo", "!" ];
-    console.log(arr.length -1);
-    return arg[arr.length -1]
 
 }
 
 function nuevoArray(arg){
     //dado el array pasado por parametro retorna su longitud
     // tu código aqui:
-    var arr3 = ["hola", "mundo", "!" ];
-    console.log(arr3.length);
-    return arg[arr3.length]
-
 
   }
 
@@ -32,13 +21,6 @@ function changeArray(arr){
     //el ultimo elemento por 'array'
     //retorna el nuevo valor
     // tu código aqui:
-    var arr1 = ["hola", "mundo", "!" ]
-    arr1.shift();
-    arr1.unshift("aprendiendo");
-    arr1.pop();
-    arr1.push("array");
-    console.log(arr1);
-    return arr[0]
 
 }
 
@@ -49,18 +31,6 @@ function primerasCondicionales(arg){
     // longitud de array menor que 3 retornar: 'Este array es menor a 3'
     // longitud de array igual a 0 retornar: 'Este array no contiene elementos'
     // tu código aqui:
-    let arr = ["hola", "mundo", "!" ];
-    if (arr.length == 0){
-        return arr.length("este array no contiene elementos");
-    }else if (arr.length < 3){
-        return arr.length ("este array es menor a 3")
-    }else if (arr.length == 3){
-        return arr.length ("este array es igual a 3")
-    }else (arr.length > 3) 
-    {
-        return arr.length ("este array es mayor a 3")
-    }
-
     
 }
 
