@@ -58,13 +58,34 @@ temp(25,20,70);
 // Crea una función que reciba un array de strings como parámetro y devuelva un nuevo array con solo los strings que tienen una longitud mayor a 5.
 // IMPORTANTE -> la funcion debe llamarse 'arrayDeStrings'
 // Tu código:
-
-
+var strings=["hola", "Javascript", "FFuncion", "mundo"];
+var resultado = arrayDeStrings(strings);
+function arrayDeStrings(strings){
+    var NEWarr = [];
+    for (var i = 0; i < strings.length; i++) {
+        if (strings[i].length > 5) {
+            NEWarr.push(strings[i])   
+        }     
+    }
+    return NEWarr;
+}
+console.log(resultado);
 
 /**********************************************************************************/
 // Crea una función que reciba un string como parámetro y devuelva el mismo string pero con todas las palabras en orden inverso.
 // IMPORTANTE -> la funcion debe llamarse 'stringInverso'
 // Tu código:
+var strings="hola Mundo Javascript ";
+function stringInverso(strings){
+    var palabras = strings.split(" ");
+    var invertido = palabras.reverse();
+    var palabrasInversa = invertido.join(" ");
+    return palabrasInversa; 
+
+}
+var resultado = stringInverso(strings);
+console.log(resultado);
+
 
 
 
